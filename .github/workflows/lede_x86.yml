@@ -2,8 +2,8 @@ name: lede_x86
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 16 * * *"
+#  schedule:
+#    - cron: "0 16 * * *"
 
 env:
   OPENWRT_NAME: lede
