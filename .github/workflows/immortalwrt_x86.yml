@@ -2,8 +2,8 @@ name: immortalwrt_x86
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 16 * * *"
+#  schedule:
+#    - cron: "0 16 * * *"
 
 env:
   OPENWRT_NAME: immortalwrt
@@ -16,7 +16,7 @@ env:
   DIY_P2_SH: immortalwrt/diy-part2.sh
   UPLOAD_BIN: true
   UPLOAD_FIRMWARE: true
-  UPLOAD_RELEASE: true
+  UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
 
 jobs:
